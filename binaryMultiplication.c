@@ -202,7 +202,7 @@ int main()
         printf("Resultant integer number: %d\n", binaryToInt(binMultiplication(multiplicand, multipler), numberOfBit(multiplicand) + numberOfBit(multipler)));
 
 
-        printf("Do you want to continue (1 for Continue/ Type anything to Quiut ):  ");
+        printf("Do you want to continue (1 for Continue/ Type anything to Quit ):  ");
         scanf("%d", &Wantcontinue);
     }while(Wantcontinue == 1);
     return 0;
