@@ -1,2 +1,7 @@
 # BinaryMultiplication
-Binary Multiplication in c
+```
+#run this command in linux
+gcc binaryMultiplication.c -o run
+./run
+```
+![image](app.jpeg)
