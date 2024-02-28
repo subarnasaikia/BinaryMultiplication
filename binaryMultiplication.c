@@ -12,7 +12,7 @@ int numberOfBit(int n)
     int count = 0;
     while (n > 0)
     {
-        count ++;
+        count++;
         n >>= 1; // rightshifting the bit
     }
     return count;
@@ -20,7 +20,7 @@ int numberOfBit(int n)
 
 
 /**
- * @brief multiply two integer using partial binary multiplication
+ * @brief multiply two integer using partial sum approach in bit level
  * 
  * 
  * @param m Multiplicand
@@ -83,8 +83,8 @@ void RightShift(int *arr, int size, int *LeftBit)
 
 /**
  * @brief Implementing FullAdder to add n bit binary numbers
- * A : one bit form first bianry number
- * B : one bit form second binary number
+ * A : one bit from first binary number
+ * B : one bit from second binary number
  * Cn-1 : previous carry after adding A and B (Cn-1 is 0 for first time)
  * add = (A xor B) xor Cn-1
  * Cn = ( A and B) or Cn-1 and (A or B)
